@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "AAA",
+    "age": 24,
+    "personalColor": "blue"
+  },
+  {
+    "id": 2,
+    "name": "BBB",
+    "age": 28,
+    "personalColor": "pink"
+  },
+  {
+    "id": 3,
+    "name": "CCC",
+    "age": 23,
+    "personalColor": "green"
+  }
+]
