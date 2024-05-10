@@ -1,13 +1,7 @@
 import { useState } from "react";
 import { ListItem } from "./component/ListItem";
-import userList from "./data/userList.json"
-
-type User = {
-  id: number;
-  name: string;
-  age: number;
-  personalColor: string;
-};
+import userList from "./data/userList.json";
+import type { User } from "./types/user";
 
 function App() {
   const [users, setUsers] = useState<User[]>(userList);
